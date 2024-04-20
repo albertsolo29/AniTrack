@@ -1,0 +1,158 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+     <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <!--
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
+    -->
+    
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">  download font awesome -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="pictures/logo_sec.svg"type="image/x-icon">
+    
+    <title>AniTrack</title>
+    
+  
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="recs.css">
+    
+    <style>
+              
+    </style>
+
+  </head>
+  <body>
+    <script type="module" src="main.js"></script>
+    
+
+    
+    <section id="navbar">
+    
+      <nav>
+        <img src="pictures/logo_main.svg" alt="logo" >
+        <h3>AniTrack</h3>
+        
+        <div class="login_bt">
+          
+          <button id="logoutBtn" style="display: none">Logout</button>
+          <button id="loginBtn" onclick="promptBox()">login</button>
+
+        </div>
+      </nav>
+
+      <nav class="nav_2">
+        <section class="links">
+          <a href="index.html" style="color: #8576FF;">Home</a>
+          <a href="recommendations.html">Recommendations</a>
+          <a href="randomize.html">Randomizer</a> 
+        </section>
+      </nav>
+
+    </section>
+
+
+    
+
+
+    <div class="search">
+      <form action="#">
+          <input type="text" id="query" placeholder="Search Anime" name="search">
+          <a id="searchbtn" href="#">
+          <img width="25" src="https://img.icons8.com/ios/50/search--v1.png" alt="search--v1"/>
+          </a>
+      </form>
+    </div>
+
+
+
+
+
+    <main>
+          
+      
+
+      <div class="sec_main"></div>
+      
+          <div class="filter_buttons">
+            <button id ="popular" >Popular</button>
+          
+
+
+            <div class="dropdown">
+              <button id="type" class="dropdownbtn">Type</button>
+              <div class="dropdown-content">
+                <a href="#" id="type">TV</a>
+                <a href="#" id="type">Movie</a>
+                <a href="#" id="type">OVA</a>
+                <a href="#" id="type">Special</a>
+                <a href="#" id="type">ONA</a>
+                <a href="#" id="type">Music</a>
+                <a href="#" id="type">CM</a>
+                <a href="#" id="type">PV</a>
+                <a href="#" id="type">TV_Special</a>
+              </div>
+            </div>
+            
+            <div class="dropdown">
+              <button id="status" class="dropdownbtn">Status</button>
+              <div class="dropdown-content">
+                <a href="#" id="status">Airing</a>
+                <a href="#" id="status">Complete</a>
+                <a href="#" id="status">Upcoming</a>
+              </div>
+            </div>
+            
+            <div class="dropdown">
+              <button id="sfw" class="dropdownbtn">SFW</button>
+              <div class="dropdown-content">
+                <a href="#" id="sfw">Yes</a>
+                <a href="#" id="sfw">No</a>
+              </div>
+            </div>
+
+
+            
+<div class="dropdown">
+  <button id="genre" class="dropdownbtn">Genre</button>
+  <div class="dropdown-content">
+    <p id="genrelink"></p>
+  </div>
+</div>
+
+</div>
+
+
+<div id="all_card">
+
+  <div class="ani-card">
+  </div>
+
+
+</div>
+
+
+</main>
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+  

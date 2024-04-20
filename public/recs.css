@@ -1,0 +1,102 @@
+
+#all_card2{
+    
+    
+    display: grid;
+  
+    grid-template-columns: repeat(8, 1fr);
+  
+    grid-auto-rows: auto;
+  
+    grid-gap: 1rem;
+
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding-right: 20px;
+
+  }
+  
+  main{
+    justify-items: center;
+  }
+ 
+.anime-card2 img{
+    padding-bottom: 1px;
+    border-radius: 15px;
+    
+    width: 100%;
+  }
+  
+  #all_card2 a{
+    text-decoration: none;
+  }
+  
+  #all_card2 .ani-card2{
+    color: #A3FFD6;
+    justify-content: center;
+    
+    
+    
+    width: 75%;
+    
+  }
+  
+  
+  
+  #all_card2 p{
+    font-size: 1rem;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 2px;
+    font-weight: 400;
+    
+  
+   
+  }
+
+@media screen and (max-width:1000px){
+    #all_card2{
+        
+
+        grid-template-columns: repeat(4, 1fr);
+        
+    }
+}
+
+@media screen and (max-width:560px){
+
+    #all_card2{
+        
+
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+
+    .nav_2{
+        height: 10px;
+    }
+
+    .links{
+        padding: 0;
+        margin: 0;
+    }
+
+    .links a{
+        font-size: 17px;
+        font-weight: 1000;
+    }
+    .nav_2 .links{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .search input[type=text]{
+        width: 90%;
+        margin-left: 5px;
+    }
+
+    nav h3{
+        display: none;
+    }
+}
